@@ -2,7 +2,7 @@ import { BriefcaseBusiness, ChevronDown, Lock } from "lucide-react"
 
 const Header = () => {
   return (
-<header className="sticky top-0 bg-white z-[999] container mx-auto max-w-[1200px] py-[13px]">
+<header className="sticky top-0 bg-white z-[999] container mx-auto max-w-[1130px] px-[24px] py-[24px]">
   <nav className="grid grid-cols-12 items-center   justify-between ">
     <div className="col-span-3">
       <div className="flex items-center">
@@ -25,16 +25,18 @@ const Header = () => {
       </ul>
 
       <div className="flex items-end justify-end gap-4">
-        <button className="flex items-center gap-2 p-2 border border-[#E2E8F0] text-14px font-medium rounded-[8px] shadow-2xs bg-[#F8F8FA]">
+        <button className="flex items-center gap-2 p-2 border border-[#E2E8F0] text-14px font-medium rounded-[8px] hover:scale-[1.05] transition-all duration-500 shadow-2xs bg-[#F8F8FA]">
           <Lock size={14} /> Login
         </button>
-        <button className="flex items-center gap-2  p-2 text-[14px] font-medium bg-[#4767FF] border border-[#4767FF] rounded-[8px] shadow-2xs text-white">
+        <button className="flex items-center gap-2  p-2 text-[14px] font-medium bg-[#4767FF] border border-[#4767FF] rounded-[8px] hover:scale-[1.05] transition-all duration-500 shadow-2xs text-white">
           <BriefcaseBusiness size={14} /> Post a job
         </button>
       </div>
     </div>
   </nav>
+
 </header>
+
 
   )
 }

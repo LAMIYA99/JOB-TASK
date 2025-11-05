@@ -1,10 +1,13 @@
+import BannerSection from "../Components/BannerSection";
 
 
 const HomeTemp = () => {
   return (
     <div>
  
-    <h1>salam</h1>
+    <h1>
+      <BannerSection/>
+    </h1>
     </div>
   );
 };

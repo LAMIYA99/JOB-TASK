@@ -1,48 +1,56 @@
-import { ArrowRight } from "lucide-react";
 const BannerSection = () => {
   return (
-    <section>
-    <div className="relative">
-      <img
-        src="https://cdn.prod.website-files.com/6890fbf29f28b7089b169c21/6891dcf26e965d2e8a4c0fef_hero-image.jpg"
-        alt=""
-        className="w-full h-full object-cover"
-      />
-      <div className="absolute inset-0 max-w-[1200px] mx-auto container pt-10 ">
-        <div className="flex items-start justify-between">
-          <div className="pt-[50px]">
-            <h2 className="text-[100px] font-semibold capitalize font-poppins tracking-[-4px] text-white leading-[100px] mb-5">
-              Explore <br /> Premium <br /> Shoes
-            </h2>
-            <div className="flex items-center gap-6">
-              <button className="flex items-center gap-1 border border-[#e0e0e0] text-[#0c0407] bg-white rounded-xl px-4 py-3 text-[14px] font-semibold font-inter">
-                Shop Now <ArrowRight size={14} className="font-bold" />
-              </button>
-              <button className="flex items-center gap-1 border border-[#b29e8e] text-white bg-[#b29e8e] rounded-xl px-4 py-3 text-[14px] font-semibold font-inter">
-                Categories <ArrowRight size={14} className="font-bold" />
-              </button>
-            </div>
-          </div>
-          <div className="bg-white max-w-[252px] p-1.5 flex items-center justify-center flex-col group cursor-pointer">
-            <div className="overflow-hidden">
-              <img
-                src="https://cdn.prod.website-files.com/6890fbf29f28b7089b169c21/6891ed3ee3d93ad17e2c0430_hero-product.jpg"
-                alt=""
-                className="group-hover:scale-[1.1] duration-500 "
-              />
-            </div>
-            <div className="py-2.5">
-              <h2 className="font-semibold text-[#0c0407] text-[14px] flex items-center gap-1.5 font-inter">
-                Explore New Arrivals{" "}
-                <ArrowRight size={14} className="font-bold" />
-              </h2>
-            </div>
-          </div>
-        </div>
+<section>
+  <div className="relative">
+    <img
+      src="https://cdn.prod.website-files.com/6499e85e700d7e4fd7af113d/64b81629734341007a808e9d_home-v1-hero-bg-jobboardly-webflow-ecommerce-template.jpg"
+      alt=""
+      className="w-full h-[441px] object-cover"
+    />
+    <div className="absolute inset-0 container mx-auto max-w-[1130px] px-[24px] py-[24px] flex items-center">
+      <div className="flex flex-col gap-4 items-start justify-center">
+        <h2 className="text-[#376fff] text-[13px] font-bold leading-4 tracking-[1.04px] uppercase">
+          Best tech jobs
+        </h2>
+        <h3 className="text-[36px] leading-[48px] font-semibold text-[#232535]">
+          Find your perfect job <br /> in the tech industry
+        </h3>
+        <p className="text-[16px] text-[#484b62] font-normal leading-6">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit <br /> sed
+          do eiusmod tempor incididunt ut labore et dolore.
+        </p>
+        <ul className="flex gap-6 items-center">
+          <li>
+            <img
+              src="https://cdn.prod.website-files.com/6499e85e700d7e4fd7af113d/6554fdc25133d9e05e8b9598_agency-logo-jobboardly-x-webflow-template.svg"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="https://cdn.prod.website-files.com/6499e85e700d7e4fd7af113d/6554fdc21156accfcc02b5ce_application-logo-jobboardly-x-webflow-template.svg"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="https://cdn.prod.website-files.com/6499e85e700d7e4fd7af113d/6554fdc266e7a7d51cee299d_business-logo-jobboardly-x-webflow-template.svg"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="https://cdn.prod.website-files.com/6499e85e700d7e4fd7af113d/6554fdc267ffa27d36afed80_company-logo-jobboardly-x-webflow-template.svg"
+              alt=""
+            />
+          </li>
+        </ul>
       </div>
     </div>
-  </section>
-  )
-}
+  </div>
+</section>
 
-export default BannerSection
+  );
+};
+
+export default BannerSection;

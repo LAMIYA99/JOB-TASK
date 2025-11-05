@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "./src/Layout";
 import Home from "./src/Featured/Pages/Home";
+import Detail from "./src/Featured/Pages/Detail";
 
 export const router = createBrowserRouter([
   {
@@ -13,10 +14,15 @@ export const router = createBrowserRouter([
         path: "/",
         element: <Home/>  ,
       },
+      {
+        id: "3",
+        path: "/detail",
+        element: <Detail/>  ,
+      },
     ],
   },
   {
-    id: "3",
+    id: "4",
     path: "*",
     element: <div>404 Not Found</div>,
   }

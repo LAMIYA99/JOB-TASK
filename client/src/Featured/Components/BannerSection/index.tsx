@@ -14,12 +14,12 @@ const BannerSection = () => {
         className="w-full h-[451px] object-cover"
       />
 
-      <div className="absolute inset-0 container mx-auto max-w-[1130px] px-[24px] bottom-34 flex items-center">
+      <div className="absolute inset-0 container mx-auto max-w-[1130px] px-6 bottom-34 flex items-center">
         <div className="flex flex-col gap-4 items-start justify-center">
           <h2 className="text-[#376fff] text-[13px] font-bold leading-4 tracking-[1.04px] uppercase">
             Best tech jobs
           </h2>
-          <h3 className="text-[36px] leading-[48px] font-semibold text-[#232535]">
+          <h3 className="text-[36px] leading-12 font-semibold text-[#232535]">
             Find your perfect job <br /> in the tech industry
           </h3>
           <p className="text-[16px] text-[#484b62] font-normal leading-6">
@@ -85,7 +85,7 @@ const BannerSection = () => {
               />
               <button
                 type="submit"
-                className="bg-[#376fff] text-white px-3 py-1 text-[14px] rounded-[4px] hover:scale-[1.03] transition-all duration-500 font-semibold hover:brightness-95"
+                className="bg-[#376fff] text-white px-3 py-1 text-[14px] rounded-sm hover:scale-[1.03] transition-all duration-500 font-semibold hover:brightness-95"
               >
                 Search
               </button>

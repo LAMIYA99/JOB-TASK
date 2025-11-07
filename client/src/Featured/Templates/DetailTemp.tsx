@@ -1,7 +1,12 @@
+import DetailSection from "../Components/Shop/DetailSection/DetailSection"
+import MoreSection from "../Components/Shop/MoreSection"
 
 const DetailTemp = () => {
   return (
-    <div>salam</div>
+    <div>
+        <DetailSection/>
+        <MoreSection/>
+    </div>
   )
 }
 

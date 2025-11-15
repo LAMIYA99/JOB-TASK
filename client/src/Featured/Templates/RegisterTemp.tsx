@@ -1,4 +1,4 @@
-import RegisterSection from "../Components/Register/RegisterSection/Register"
+import RegisterSection from "../Components/Register/RegisterSection"
 
 const RegisterTemp = () => {
   return (

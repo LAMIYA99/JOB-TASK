@@ -1,4 +1,4 @@
-import DetailSection from "../Components/Shop/DetailSection/DetailSection"
+import DetailSection from "../Components/Shop/DetailSection"
 import MoreSection from "../Components/Shop/MoreSection"
 
 const DetailTemp = () => {

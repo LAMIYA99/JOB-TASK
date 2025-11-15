@@ -1,4 +1,4 @@
-import LoginSection from "../Components/Login/LoginSection/Login"
+import LoginSection from "../Components/Login/LoginSection"
 
 const LoginTemp = () => {
   return (
